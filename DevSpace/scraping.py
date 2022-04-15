@@ -1,50 +1,27 @@
 import pandas as pd
 import re
+import time
+from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+query = "Data Scientist"
+
 browser = webdriver.Chrome("chromedriver.exe")
 browser.get("https://www.linkedin.com/jobs/")
+time.sleep(2)
 
-job = browser.find_element_by_class_name("job-card-square__title")
-c=[]
-for i in job:
-    c.append(i.text)
-print(c)
-print() 
-print(len(c))
+s1 = browser.find_element(by=By.XPATH,
+                          value='/html/body/main/section[1]/div/section/div[2]/section[2]/form/section[1]/input')
 
-job_title = []
-for i  in range(len(c)):
-    job_title.append(c[i].strip("Job Title\n"))
-    job_title
+s1.click()
+time.sleep(1)
+s1.send_keys(query)
+time.sleep(3)
 
-print(job_title)
+browser.find_element(by=By.XPATH,
+                     value='/html/body/main/section[2]').click()
+time.sleep(1)
 
-job2 = browser.find_element_by_class_name("job-card-container__company-name")
-comp_name = []
-for i in job2:
-    comp_name.append(i.text)
-print(comp_name)
-print()
-print(len(comp_name))
-
-job3 = browser.find_element_by_class_name("job-card-container__metadata-item")
-loc_name = []
-for i in job3:
-    loc_name.append(i.text)
-print(loc_name)
-print()
-print(len(loc_name))
-
-comp_name.append(" ")
-comp_name.append(" ")
-
-len(comp_name)
-
-col = ["Company Name", "Job Title", "Location"]
-df = pd.DataFrame({"Company Name":comp_name,"Job Title":job_title,"Location":loc_name})
-
-df.head()
-
-df.to_csv("linkedin_scapejobs.csv")
+browser.find_element(by=By.XPATH,
+                     value='/html/body/main/section[1]/div/section/div[2]/button[2]').click()
