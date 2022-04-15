@@ -1,0 +1,31 @@
+  * {
+      /* border: 1px solid red; */
+      font-family: Poppins;
+  }
+
+  nav {
+    display: flex;
+    box-shadow: 0px 2.98256px 17.4564px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+
+  .logo-name {
+      display: flex;
+      align-items: center;
+      font-family: Poppins;
+      list-style: none;
+  }
+
+  .main-list {
+      padding: 0 2rem;
+  }
+
+  .main-list:hover {
+      cursor: pointer;
+      color: red;
+      transform: scale(1.1);
+  }
+
+  .logo-list {
+      font-size: 2rem;
+  }

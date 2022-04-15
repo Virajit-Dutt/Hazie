@@ -1,0 +1,132 @@
+.parent-upload {
+  padding-left: 2rem;
+}
+
+.upload-parent-div {
+  display: flex;
+}
+
+.upload-area-class {
+  width: 50%;
+  padding-top: 3rem;
+  border: 1px solid black;
+}
+
+.display-area-class {
+  width: 50%;
+  background-color: rgb(255, 245, 230);
+}
+
+.uploadarea-intro {
+  border-bottom: 1px solid black;
+}
+
+.upload-art-heading {
+  font-size: 1.2rem;
+}
+
+.upload-inputs {
+  display: flex;
+  /* border-bottom: 1px solid black; */
+}
+
+.upload-url {
+  width: 50%;
+  border-right: 1px solid black;
+  padding-bottom: 2rem;
+}
+
+.upload-file-opt {
+  width: 50%;
+  padding-left: 1rem;
+}
+
+.url-input-box {
+  width: 80%;
+  padding: 0.25rem 0.5rem;
+  outline: none;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+/* .upload-file {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+} */
+
+#choose_file{
+  width: 90%;
+  background:white;
+  border: 2px solid black;
+  outline:none;
+}
+::-webkit-file-upload-button{
+  border:none;
+  background: rgb(238, 30, 30);
+  height: 2rem;
+  color:white;
+  width: 8rem;
+}
+
+::-webkit-file-upload-button:hover {
+  cursor: pointer;
+  background-color: rgb(190, 8, 8);
+}
+
+.sub-btn-div {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.form-submit-btn {
+  padding: 1rem;
+  width: 90%;
+  outline: none;
+  color: white;
+  font-size: 1.2rem;
+  background: rgb(238, 30, 30);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-submit-btn:hover {
+  cursor: pointer;
+  background: rgb(190, 8, 8);
+}
+
+.disp-heading {
+  padding-left: 2rem;
+  padding-top: 3rem;
+  font-size: 1.4rem;
+}
+
+.textarea {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  height: 10rem;
+  width: 80%;
+  padding: 1rem;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.download-btn {
+  margin-left: 2rem;
+  margin-top: 3.5rem;
+  padding: 1rem;
+  width: 85%;
+  outline: none;
+  color: white;
+  font-size: 1.2rem;
+  background: rgb(238, 30, 30);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.download-btn:hover {
+  cursor: pointer;
+  background: rgb(190, 8, 8);
+}
