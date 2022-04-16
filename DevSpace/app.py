@@ -1,6 +1,10 @@
-from flask import Flask,flash,send_from_directory,render_template,request,redirect,session,g,url_for
+from flask import Flask,flash,send_from_directory,render_template,request,redirect,session,g,url_for,jsonify
 import pyrebase
 import re
+import pandas as pd
+import csv
+import google.py
+from werkzeug import secure_filename
 
 app = Flask(__name__)
   
@@ -74,12 +78,22 @@ def register():
         msg = 'Please fill out the form !'
     return render_template('register.html', msg = msg)
 
-@app.route('/internships')
+
+@app.route('/internships', methods=['GET','POST'])
 def internships():
+    if request.method == 'POST':
+        with open('csvfile.csv', newline='') as csvfile:
+            reader = csv.reader(csvfile, delimiter=' ')
+            for row in reader:
+                pass
     return render_template('internships.html')
 
-@app.route('/summarizer')
+@app.route('/summarizer', methods = ['GET', 'POST'])
 def summarizer():
+    if request.method == 'POST':
+        f = request.files['file']
+        f.save(secure_filename(f.filename))
+        return 'file uploaded successfully'
     return render_template('summarizer.html')
 
 @app.route('/questions')

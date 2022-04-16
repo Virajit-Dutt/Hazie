@@ -21,7 +21,7 @@ export default function UploadArea() {
                         </div>
                         <div className='upload-file-opt'>
                             <p>Upload the file</p>
-                            <input type="file" id="choose_file" />
+                            <input type="file" id="choose_file" name="file" />
                         </div>
                     </div>
                     <div className='sub-btn-div'>
