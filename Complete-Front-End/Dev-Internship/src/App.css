@@ -1,0 +1,31 @@
+.search-parent-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  /* border: 1px solid red; */
+}
+
+.search-box {
+  border-radius: 4rem;
+  padding: 1rem;
+}
+
+.input-box {
+  padding: 1rem;
+  border: 1px solid black;
+  width: 30rem;
+}
+
+.search-btn {
+  background: none;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  color: white;
+  background: black;
+}

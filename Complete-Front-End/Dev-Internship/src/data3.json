@@ -1,0 +1,32 @@
+[
+    {
+        "cardHeading": "Data trial",
+        "companyName": "LimeRoad",
+        "location": "trial",
+        "startDate": "trial",
+        "duration": "3 Months",
+        "stipend": "10000",
+        "applyBy": "21 Apr' 22",
+        "link": "https://internshala.com/internship/detail/data-analytics-internship-in-multiple-locations-at-limeroad1649259748"
+    },
+    {
+        "cardHeading": "Data Visualization (SQL)",
+        "companyName": "Markytics",
+        "location": "trial",
+        "startDate": "Immediately",
+        "duration": "6 Months",
+        "stipend": "5000-10000 /month",
+        "applyBy": "30 Apr' 22",
+        "link": "https://internshala.com/internship/detail/data-visualization-sql-internship-in-pune-at-markytics1650083908"
+    },
+    {
+        "cardHeading": "Data Science & Machine Learning",
+        "companyName": "Markytics",
+        "location": "Pune",
+        "startDate": "Immediately",
+        "duration": "6 Months",
+        "stipend": "5000-10000 /month",
+        "applyBy": "30 Apr' 22",
+        "link": "https://internshala.com/internship/detail/data-science-machine-learning-internship-in-pune-at-markytics1649995890"
+    }
+]

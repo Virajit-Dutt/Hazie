@@ -1,0 +1,45 @@
+  * {
+      /* border: 1px solid red; */
+      font-family: Poppins;
+      color: white;
+      /* margin: 0;
+      padding: 0; */
+  }
+
+  .main-html {
+    background: rgb(15, 17, 105);
+    backdrop-filter: blur("2rem");
+  }
+
+  nav {
+    display: flex;
+    box-shadow: 0px 2.98256px 17.4564px rgba(0, 0, 0, 0.1);
+    background: white;
+    background-image: linear-gradient( 95.2deg, rgb(62, 114, 156) 26.8%, rgb(62, 114, 156) 64% );
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logo-name {
+      display: flex;
+      align-items: center;
+      font-family: Poppins;
+      list-style: none;
+      color: white;
+  }
+
+  .main-list {
+      padding: 0 2rem;
+      color: white;
+  }
+
+  .main-list:hover {
+      cursor: pointer;
+      color: red;
+      transform: scale(1.1);
+  }
+
+  .logo-list {
+      font-size: 2rem;
+      color: white;
+  }

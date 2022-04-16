@@ -1,0 +1,201 @@
+*{
+  color:white
+}
+
+.App {
+  background-image: linear-gradient( 95.2deg, rgb(6, 76, 134) 26.8%, rgb(25, 101, 136) 64% );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parent-upload {
+  padding-left: 2rem;
+}
+
+.upload-parent-div {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.upload-area-class {
+  width: 50%;
+  padding-top: 3rem;
+  /* border: 1px solid black; */
+}
+
+.display-area-class {
+  width: 50%;
+  /* border: 1px solid black; */
+  border-left: none;
+  /* background-color: rgb(15, 17, 105); */
+
+  /* background-image: linear-gradient( 95.2deg, rgb(6, 76, 134) 26.8%, rgb(25, 101, 136) 64% ); */
+}
+
+.uploadarea-intro {
+  /* border-bottom: 1px solid black; */
+}
+
+.upload-art-heading {
+  font-size: 1.2rem;
+}
+
+.upload-inputs {
+  display: flex;
+  /* border-bottom: 1px solid black; */
+}
+
+.upload-url {
+  width: 50%;
+  border-right: 1px solid black;
+  padding-bottom: 2rem;
+}
+
+.upload-file-opt {
+  width: 50%;
+  padding-left: 1rem;
+}
+
+.url-input-box {
+  width: 80%;
+  padding: 0.25rem 0.5rem;
+  outline: none;
+  border: 2px solid grey;
+  border-radius: 5px;
+  color: black;
+}
+
+/* .upload-file {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+} */
+
+#choose_file{
+  width: 90%;
+  background:white;
+  border: 2px solid black;
+  outline:none;
+  color: black;
+}
+::-webkit-file-upload-button{
+  border:none;
+  background-color: rgb(15, 17, 105);
+  /* background: linear-gradient( 95.2deg, rgb(6, 76, 134) 26.8%, rgb(25, 101, 136) 64% ); */
+  height: 2rem;
+  color:white;
+  width: 8rem;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+
+::-webkit-file-upload-button:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  border-right: 2px solid black;
+  background: white;
+  color: black;
+}
+
+.sub-btn-div {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.form-submit-btn {
+  padding: 1rem;
+  width: 90%;
+  outline: none;
+  color: white;
+  background-color: rgb(15, 17, 105);
+  /* background: linear-gradient( 95.2deg, rgb(6, 76, 134) 26.8%, rgb(25, 101, 136) 64% ); */
+  font-size: 1.2rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.form-submit-btn:hover {
+  border: 1px solid black;
+  cursor: pointer;
+  color: black;
+  background: white;
+}
+
+.disp-heading {
+  padding-left: 2rem;
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.textarea {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  height: 10rem;
+  width: 80%;
+  padding: 1rem;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  overflow: scroll;
+}
+
+.textarea-content p{
+  color: black;
+  /* display: none; */
+}
+
+.abstract-class {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  /* height: 1.5rem; */
+  width: 80%;
+  padding: 1rem;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.abtract-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.abtract-head h1{
+  color: black;
+  font-size: 1.1rem;
+}
+
+.collapsible-para{
+  color: black;
+  /* display: none; */
+}
+
+.download-btn {
+  margin-left: 2rem;
+  margin-top: 3.5rem;
+  padding: 1rem;
+  width: 85%;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: white;
+  background-color: rgb(15, 17, 105);
+  border: 1px solid white;
+}
+
+.download-btn:hover {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  /* background: linear-gradient( 95.2deg, rgb(6, 76, 134) 26.8%, rgb(25, 101, 136) 64% ); */
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+
+                            {/* <div className='filter-card'>
+                                <p className='filter-heading'>Filters</p>
+                                <p className='category-heading'>Category</p>
+                                <div className='cat-inp-div'>
+                                    <input type="text" className ="categ-input" />
+                                </div>
+                                <p className='category-heading'>Location</p>
+                                <div className='cat-inp-div'>
+                                    <input type="text" className ="categ-input" />
+                                </div>
+                                <div className='check-box-div'>
+                                    <input type="checkbox" id='wfh-check' className='wfh-check' /><span>Work From Home</span>
+                                    <input type="checkbox" id='part-time-check' className='part-time-check' /><span>Part-Time</span>
+                                </div>
+                                <p className='category-heading'>Starting From</p>
+                                <div className='cat-inp-div'>
+                                    <input type="date" className ="categ-input" />
+                                </div>
+                                <p className='category-heading'>Max Duration</p>
+                                <div className='cat-inp-div'>
+                                    <input type="date" className ="categ-input" />
+                                </div>
+                                <div className='check-box-div'>
+                                    <input type="checkbox" id='wfh-check' className='wfh-check' /><span>Work From Home</span>
+                                    <input type="checkbox" id='part-time-check' className='part-time-check' /><span>Part-Time</span>
+                                </div>
+                                <p className='clear-all-text'>Clear All</p>
+                            </div> */}
