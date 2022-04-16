@@ -1,0 +1,150 @@
+* {
+    font-family: Poppins;
+    color: black;
+}
+
+nav {
+    display: flex;
+    padding: 0 2rem;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+  }
+  
+  .image-ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    align-items: center;
+  }
+
+  .logo-list {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Rambla;
+  }
+  
+  .image-ul-li {
+    font-size: 1.3rem;
+    font-family: Poppins;
+    padding-left: 1rem;
+  }
+
+  .parent-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 7rem;
+  }
+
+  .main-cont-div {
+      /* border: 1px solid black; */
+      width: 85%;
+      display: flex;
+  }
+
+  .filter-card {
+      /* width: 35%; */
+      box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+      /* border: 1px solid black; */
+
+  }
+
+  .internship-card {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      /* border: 1px solid red; */
+  }
+
+  .filter-heading {
+      font-weight: none;
+      text-align: center;
+      font-size: 1.2rem;
+  }
+
+  .category-heading {
+      padding-left: 1rem;
+  }
+
+  .cat-inp-div {
+      padding-left: 1rem;
+  }
+
+  .catog-input {
+      width: 100%;
+      border: 1px solid grey;
+      outline: none;
+  }
+
+  .check-box-div {
+      padding-top: 1rem;
+      width: 50%;
+      padding-left: 1rem;
+  }
+
+  .part-time-check{
+      padding-left: 1rem;
+  }
+
+  .clear-all-text {
+      cursor: pointer;
+      color: red;
+      padding: 0 1rem;
+      text-align: right;
+  }
+
+  .intern-company-card {
+    width: 90%;
+  }
+
+  .intern-company-content {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+    }
+
+   .card-heading {
+       padding: 1rem;
+       padding-bottom: 0;
+       font-size: 1.2rem;
+       font-weight: bold;
+   }
+
+   .company-name {
+       color: grey;
+       font-size: 1rem;
+       padding: 0 1rem;
+       font-weight: bold;
+   }
+
+   .location-div {
+       display: flex;
+       padding: 1rem;
+   }
+
+   .detail-div {
+       display: flex;
+   }
+
+   .internship-details {
+       padding: 0 1rem;
+   }
+
+   .int-heads {
+       font-size: 0.8rem;
+       color: grey;
+   }
+
+   .int-info {
+       font-size: 0.9rem;
+   }
+
+   .company-saying {
+       padding: 0 1rem;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+   .view-details {
+       color: red;
+       font-weight: bold;
+   }

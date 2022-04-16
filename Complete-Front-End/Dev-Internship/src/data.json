@@ -1,0 +1,75 @@
+[
+    {
+        "cardHeading": "Internshala Student Partner",
+        "companyName": "International Call Center",
+        "location": "Gurgaon",
+        "startDate": "21 Apr - 22 May' 22",
+        "duration": "1 Month",
+        "stipend": "Performance Based",
+        "applyBy": "17 Apr' 22",
+        "link": "https://internshala.com/internship/detail/internship-at-internshala1649155609"
+    },
+    {
+        "cardHeading": "Website Analytics",
+        "companyName": "Fittlyf",
+        "location": "Work From Home",
+        "startDate": "Immediately",
+        "duration": "4 Months",
+        "stipend": "3000 /month",
+        "applyBy": "30 Apr' 22",
+        "link": "https://internshala.com/internship/detail/website-analytics-work-from-home-job-internship-at-fittlyf1650083421"
+    },
+    {
+        "cardHeading": "Full Stack Development",
+        "companyName": "Indian Institute Of Technology - Delhi",
+        "location": "Delhi",
+        "startDate": "Immediately",
+        "duration": "2 Months",
+        "stipend": "7500 /month",
+        "applyBy": "27 Apr' 22",
+        "link": "https://internshala.com/internship/detail/full-stack-development-internship-in-delhi-at-indian-institute-of-technology-delhi1649763593"
+    },
+    {
+        "cardHeading": "Mobile App Development",
+        "companyName": "Playwise",
+        "location": "Work From Home",
+        "startDate": "Immediately",
+        "duration": "6 Months",
+        "stipend": "4000 /month + Incentives",
+        "applyBy": "29 Apr' 22",
+        "link": "https://internshala.com/internship/detail/mobile-app-development-work-from-home-job-internship-at-playwise1649937614"
+    },
+    
+    {
+        "cardHeading": "MERN Stack Development",
+        "companyName": "IWebcode",
+        "location": "Work From Home",
+        "startDate": "Immediately",
+        "duration": "6 Months",
+        "stipend": "6000 /month",
+        "applyBy": "29 Apr' 22",
+        "link": "https://internshala.com/internship/detail/mern-stack-development-work-from-home-job-internship-at-iwebcode1649938477"
+    },
+    
+    {
+        "cardHeading": "Full Stack Development",
+        "companyName": "BLACKCOFFER (OPC) PRIVATE LIMITED",
+        "location": "Work From Home",
+        "startDate": "Immediately",
+        "duration": "6 Months",
+        "stipend": "8000 /month",
+        "applyBy": "29 Apr' 22",
+        "link": "https://internshala.com/internship/detail/full-stack-development-work-from-home-job-internship-at-blackcoffer-opc-private-limited1649927296"
+    },
+    
+    {
+        "cardHeading": "Full Stack Development",
+        "companyName": "Hi Talent",
+        "location": "Work From Home",
+        "startDate": "Immediately",
+        "duration": "3 Months",
+        "stipend": "1000-6000 /month",
+        "applyBy": "29 Apr' 22",
+        "link": "https://internshala.com/internship/detail/full-stack-development-work-from-home-job-internship-at-hi-talent1649907478"
+    }
+]
